@@ -1,11 +1,10 @@
 {
   "name": "magpie-opencode-console-auth",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Community plugin for OpenCode Console and Go: browser sign-in, models, and workspace usage in Magpie",
   "type": "module",
   "main": "./opencode.mjs",
   "exports": {
-    "./server": "./index.mjs",
     ".": "./opencode2.mjs"
   },
   "files": [
