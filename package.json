@@ -1,7 +1,7 @@
 {
   "name": "magpie-opencode-console-auth",
-  "version": "0.1.5",
-  "description": "Community plugin for OpenCode Console and Go: browser sign-in, models, and workspace usage in Magpie",
+  "version": "0.1.6",
+  "description": "Community plugin for OpenCode Console and Go: models, usage, prepaid balance and Go renewal in Magpie",
   "type": "module",
   "main": "./opencode.mjs",
   "exports": {
@@ -39,8 +39,8 @@
     "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIj48c3ZnIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjUxMiIgaGVpZ2h0PSI1MTIiIGZpbGw9IiMxMzEwMTAiPjwvcmVjdD4KPHBhdGggZD0iTTMyMCAyMjRWMzUySDE5MlYyMjRIMzIwWiIgZmlsbD0iIzVBNTg1OCI+PC9wYXRoPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTM4NCA0MTZIMTI4Vjk2SDM4NFY0MTZaTTMyMCAxNjBIMTkyVjM1MkgzMjBWMTYwWiIgZmlsbD0id2hpdGUiPjwvcGF0aD4KPC9zdmc+PHN0eWxlPkBtZWRpYSAocHJlZmVycy1jb2xvci1zY2hlbWU6IGxpZ2h0KSB7IDpyb290IHsgZmlsdGVyOiBub25lOyB9IH0KQG1lZGlhIChwcmVmZXJzLWNvbG9yLXNjaGVtZTogZGFyaykgeyA6cm9vdCB7IGZpbHRlcjogbm9uZTsgfSB9Cjwvc3R5bGU+PC9zdmc+",
     "maxConcurrency": 4,
     "summary": {
-      "en": "Sign in to OpenCode Console in your browser to use Go and pay-as-you-go models in Magpie. View Go allowances and Console budgets.",
-      "zh": "浏览器登录 OpenCode Console，在 Magpie 使用 Go 订阅和按量模型，查看 Go 额度、重置时间和 Console 预算。"
+      "en": "Sign in to OpenCode Console in your browser to use Go or pay-as-you-go models. See quotas, prepaid balance and Go renewal when available.",
+      "zh": "浏览器登录 OpenCode Console，使用 Go 订阅或按量模型，查看额度及可读取的预付余额和 Go 续费时间。"
     }
   },
   "homepage": "https://github.com/anice520/magpie-opencode-console-auth#readme"
